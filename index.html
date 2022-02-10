@@ -1,24 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>:Contact Form</title>
   <link rel="stylesheet" href="style2.css">
 </head>
-
 <body>
-  <!-- contact1 -->
-  <section class="w3l-simple-contact-form1">
-    <div class="contact-form section-gap">
-      <div class="wrapper">
-        <div class="text-center">
-          <form onsubmit="sendEmail();reset();return false;">
+  <div class="container">
+    <form onsubmit="sendEmail();reset();return false;">
         <h1 style="font-size: 40px; " >Contact Me</h1>
-      </div>
-        <div class="contact-form" style="max-width: 450px; margin: 0 auto;">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email id" required>
+        <input type="text" id="subject" placeholder="Subject" required>
+        <textarea id="message" rows="4" placeholder="Message"></textarea>
+        <button type="submit">Send Message</button>
+       <!-- <div class="contact-form" style="max-width: 450px; margin: 0 auto;">
           <div class="form-mid">
               <div class="field">
                 <input type="text" class="form-control" name="Name" id="Name" placeholder="Name" required="">
@@ -70,10 +66,6 @@
 );
 
 		}
-
-
     </script>
- </script>
-
 </body>
 </html>
