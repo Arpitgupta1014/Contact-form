@@ -6,8 +6,9 @@
   <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-  <div class="container">
-    <form onsubmit="sendEmail();reset();return false;">
+  <div class="contact-form">
+    <form id="contact-form" method="post" action="Contactformhandler.php">
+   <!-- <form onsubmit="sendEmail();reset();return false;"> -->
         <h1 style="font-size: 40px; " >Contact Me</h1>
         <input type="text" id="name" placeholder="Name" required>
         <input type="email" id="email" placeholder="Email id" required>
@@ -30,7 +31,7 @@
               <textarea name="Message" class="form-control" id="Message" placeholder="Message"
                 required=""></textarea>
               <button type="submit" class="btn btn-contact">Send Message</button>
-              <!-- <input type="button" class="btn btn-contact" onclick="sendmail();"  value="Send Message"> -->
+              <input type="button" class="btn btn-contact" onclick="sendmail();"  value="Send Message"> -->
 
             </form>
           </div>
