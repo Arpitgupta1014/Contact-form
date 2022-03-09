@@ -36,7 +36,7 @@ form input, form textarea{
   background: #f5f5f5;
   font-size: 16px;
 }
-form button{
+form .submit{
   padding: 15px;
   outline: none;
   background: #ff5361;
