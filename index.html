@@ -10,11 +10,11 @@
     <form class="contact-form" action="Contactformhandler.php" method="post">
     <!-- <form onsubmit="sendEmail();reset();return false;"> -->
         <h1 style="font-size: 40px; " >Contact Me</h1>
-        <input type="text" id="name" placeholder="Name" required>
-        <input type="email" id="email" placeholder="Email id" required>
-        <input type="text" id="subject" placeholder="Subject" required>
-        <textarea id="message" rows="4" placeholder="Message"></textarea>
-       <button type="submit">Send Message</button>
+        <input type="text" class="form-control" id="name" placeholder="Name" required>
+        <input type="email" class="form-control" id="email" placeholder="Email id" required>
+        <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+        <textarea id="message" class="form-control" rows="4" placeholder="Message"></textarea>
+       <button type="submit" class="form-control-submit" value="Send Message"></button>
       <!--  <div class="contact-form" style="max-width: 450px; margin: 0 auto;">
           <div class="form-mid">
               <div class="field">
@@ -41,7 +41,7 @@
 <script
   src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script> -->
+  crossorigin="anonymous"></script> 
 <script src="https://smtpjs.com/v3/smtp.js"></script>
  
 <script>  
@@ -63,6 +63,6 @@
 );
 
 		}
-    </script>
+    </script> -->
 </body>
 </html>
