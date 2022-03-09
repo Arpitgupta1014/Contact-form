@@ -9,9 +9,9 @@
     $email_body="User name:$name.\n".
                     "User Email:$visitor_email.\n".
                       "User Subject:$subject.\n".
-                       "User Message:$message.\n".
+                       "User Message:$message.\n";
 
-$t0="arpitgupta1014@gmail.com";
+$to="arpitgupta1014@gmail.com";
 
 $headers="From: $email_from\r\n";
 $headers .="Reply-To: $visitor_email\r\n;

@@ -3,20 +3,19 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Form</title>
-  <link rel="stylesheet" type="text/css" href="style2.css">
+  <link rel="stylesheet" href="style2.css">
 </head>
 <body>
   <div class="container">
-    <form id="contact-form" method="post" action="Contactformhandler.php">
-   <!-- <form onsubmit="sendEmail();reset();return false;"> -->
+    <form class="contact-form" action="Contactformhandler.php" method="post">
+    <!-- <form onsubmit="sendEmail();reset();return false;"> -->
         <h1 style="font-size: 40px; " >Contact Me</h1>
         <input type="text" id="name" placeholder="Name" required>
         <input type="email" id="email" placeholder="Email id" required>
         <input type="text" id="subject" placeholder="Subject" required>
         <textarea id="message" rows="4" placeholder="Message"></textarea>
-        <input type="submit" class="form-control submit" value="Send Message">
-     <!-- <button type="submit">Send Message</button>
-        <div class="contact-form" style="max-width: 450px; margin: 0 auto;">
+       <button type="submit">Send Message</button>
+      <!--  <div class="contact-form" style="max-width: 450px; margin: 0 auto;">
           <div class="form-mid">
               <div class="field">
                 <input type="text" class="form-control" name="Name" id="Name" placeholder="Name" required="">
@@ -43,13 +42,13 @@
   src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script> -->
-<!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
  
 <script>  
 
     function sendEmail(){
       Email.send({
-    Host : "smtp.gmail.com",
+   Host : "smtp.gmail.com",
     Username : "govindasharma1014@gmail.com",
     Password : "PASSWORD",
     To : 'arpitgupta1014@gmail.com',
@@ -64,6 +63,6 @@
 );
 
 		}
-    </script>       -->
+    </script>
 </body>
 </html>
