@@ -41,14 +41,18 @@
 <script
   src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script> -->
+  crossorigin="anonymous"></script> 
+ SecureToken:"4b92ec67-fc4f-4f9a-bb16-8f40ebbc58d6",
+-->
 <script src="https://smtpjs.com/v3/smtp.js"></script>
  
-<script>  
+<script type="text/javascript">  
 
     function sendEmail(){
       Email.send({
-        SecureToken:"7b2206dd-e0e3-4204-9753-c906f5612e41",
+      Host: "smtp.gmail.com",
+      Username : "arpitgupta1789@gmail.com",
+      Password: "riylykpxvyvkeocf",
     To : 'arpitgupta1014@gmail.com',
     From : document.getElementById("email").value,
     Subject : "New Contact Form",
