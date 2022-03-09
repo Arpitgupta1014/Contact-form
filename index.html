@@ -54,7 +54,9 @@
 
     function sendEmail(){
       Email.send({
-        SecureToken:"073ca404-bd40-4d5d-a51b-e1eda3574581",
+        Host: "smtp.mailtrap.io",
+      Username : "15b4f11f15e4dc",
+      Password: "2e66d6101391ba",
     To : 'arpitgupta1014@gmail.com',
     From : document.getElementById("email").value,
     Subject : "New Contact Form",
